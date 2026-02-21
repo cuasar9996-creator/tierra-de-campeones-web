@@ -1,0 +1,26 @@
+﻿Analyzing app...                                                
+
+   info - Don't use 'BuildContext's across async gaps - lib\screens\auth_screen.dart:188:36 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\auth_screen.dart:350:36 - use_build_context_synchronously
+   info - 'dart:html' is deprecated and shouldn't be used. Use package:web and dart:js_interop instead - lib\widgets\custom_video_player.dart:4:1 - deprecated_member_use
+   info - Don't use web-only libraries outside Flutter web plugins - lib\widgets\custom_video_player.dart:4:1 - avoid_web_libraries_in_flutter
+   info - Don't use 'BuildContext's across async gaps - lib\widgets\settings_view.dart:101:23 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\widgets\settings_view.dart:102:48 - use_build_context_synchronously
+
+flutter : 6 issues found. 
+(ran in 1.3s)
+En línea: 1 Carácter: 1
++ flutter analyze > 
+analysis_final.txt 2>&1; 
+Get-Content analysis_final 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: (6 iss  
+  ues found. (ran in 1.3s   
+ ):String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
